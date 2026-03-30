@@ -13,14 +13,14 @@ driver.get("http://uitestingplayground.com/classattr")
 
 wait = WebDriverWait(driver, 5)
 button = wait.until(EC. visibility_of_element_located((By.CLASS_NAME,"btn-primary" )))
-button.click
+button.click()
 
 wait = WebDriverWait(driver, 5)
 button = wait.until(EC. visibility_of_element_located((By.CLASS_NAME,"btn-primary" )))
-button.click
+button.click()
 
 wait = WebDriverWait(driver, 5)
 button = wait.until(EC. visibility_of_element_located((By.CLASS_NAME,"btn-primary" )))
-button.click
+button.click()
 
 sleep(10)

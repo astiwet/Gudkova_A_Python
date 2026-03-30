@@ -18,7 +18,7 @@ pass_imput = driver.find_element(By.ID, "password")
 pass_imput.send_keys("SuperSecretPassword!")
 
 login_imput = driver.find_element(By.CSS_SELECTOR, "button.radius")
-login_imput.click
+login_imput.click()
 
 wait = WebDriverWait(driver, 15)
 message = wait.until(EC. visibility_of_element_located((By.CSS_SELECTOR,"div.flash" )))
